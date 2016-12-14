@@ -23,7 +23,7 @@ Tweet Loader uses the following fields, which should all be of type 'Text Input'
 
 ## <a name="config"></a>Config
 
-The config array is located in `/system/expressionengine/third_party/tweet-loader/tweet-loader.php`.
+The config array is located in `/system/expressionengine/third_party/tweet-loader/pi.tweet-loader.php`.
 
 Each key needs a value (all are required) and should be a string.
 
