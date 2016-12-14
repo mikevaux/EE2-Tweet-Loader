@@ -1,4 +1,4 @@
-# Tweet Loader (EE 2)
+# Tweet Loader (EE 3)
 
 Retrieves Twitter content from a given account and saves the content as individual Channel Entries.
 
@@ -11,7 +11,7 @@ More specifically, Twitter Loader retrieves the latest Tweets for the given acco
 * Create the [Fields](#fields) and a corresponding Channel
 * Fill in the [config](#config)
 * Install the plugin
-* Include `{exp:tweet_loader}` in a template file and load the template
+* Include `{exp:tweetloader}` in a template file and load the template
 
 ## <a name="fields"></a>Fields
 

@@ -1,13 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$plugin_info = array(
-    'pi_name'         => 'Tweet Loader',
-    'pi_version'      => '1.0',
-    'pi_author'       => 'Boxhead',
-    'pi_description'  => 'Appends the most recent tweets to the database'
-);
-
-class Tweet_loader {
+class TweetLoader {
 	private $config = array(
 		'user_id' 				=> '',
 		'user_handle' 			=> '',
@@ -136,7 +129,7 @@ class Tweet_loader {
 	function writeTweets($content) {
 		// Instantiate EE Channel Entries API
 		ee()->load->library('api');
-		ee()->api->instantiate('channel_entries');
+		ee()->legacy_api->instantiate('channel_entries');
 
 		foreach($content as $tweet)
 		{
