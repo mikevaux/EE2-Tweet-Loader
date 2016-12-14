@@ -7,7 +7,7 @@ More specifically, Twitter Loader retrieves the latest Tweets for the given acco
 ## Usage
 
 * Download and extract the plugin files
-* Copy `/system/expressionengine/third_party/tweet-loader` to your site's `/system/expressionengine/third_party/` directory
+* Copy `/system/user/addons/tweetloader` to your site's `/system/user/addons/` directory
 * Create the [Fields](#fields) and a corresponding Channel
 * Fill in the [config](#config)
 * Install the plugin
@@ -23,7 +23,7 @@ Tweet Loader uses the following fields, which should all be of type 'Text Input'
 
 ## <a name="config"></a>Config
 
-The config array is located in `/system/expressionengine/third_party/tweet-loader/pi.tweet-loader.php`.
+The config array is located in `/system/user/addons/tweetloader/pi.tweetloader.php`.
 
 Each key needs a value (all are required) and should be a string.
 
